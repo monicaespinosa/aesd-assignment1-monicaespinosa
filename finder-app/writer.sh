@@ -30,6 +30,6 @@ echo $writestr > $writefile
 
 if [ $? -ne 0 ]
 then
-    echo "Couldn't create file with name $writepath"
+    echo "Couldn't create file: $writepath"
     exit 1
 fi
