@@ -1,6 +1,8 @@
 name: assignment-test
 on:
-    push
+    push:
+        branches:
+            - '*'
     
 jobs:
     unit-test:
