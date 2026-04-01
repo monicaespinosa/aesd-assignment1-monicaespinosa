@@ -21,7 +21,7 @@ then
     exit 1
 fi
 
-# (3)
+# (3) Check if it is a directory
 if [ ! -d $filesdir ]
 then
     echo "$filesdir is not a directory"
