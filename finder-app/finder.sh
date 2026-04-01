@@ -16,7 +16,7 @@ searchstr=$2
 # (2)
 if [ -z $filesdir ] || [ -z $searchstr ]
 then
-    echo "one or both of the parameters (filesdir and searchstr) are not specified."
+    echo "one or both of the parameters (filesdir and searchstr) were not specified."
     echo "hint: finder.sh <filesdir> <searchstr>"
     exit 1
 fi

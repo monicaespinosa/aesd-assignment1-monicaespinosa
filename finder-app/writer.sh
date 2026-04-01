@@ -12,7 +12,7 @@ writestr=$2
 
 if [ -z $writefile ] || [ -z $writestr ]
 then
-    echo "one or both of the needed arguments was not specified."
+    echo "one or both of the needed arguments were not specified."
     echo "syntax hint: write.sh <writefile> <writestr>"
     exit 1
 fi
